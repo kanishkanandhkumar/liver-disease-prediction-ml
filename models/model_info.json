@@ -1,0 +1,23 @@
+{
+  "dataset": "BBBP (Blood-Brain Barrier Penetration)",
+  "n_molecules": 2050,
+  "n_features": 32,
+  "test_accuracy": 0.7435064935064936,
+  "test_auc": 0.6102011075488196,
+  "test_f1": 0.851782363977486,
+  "class_distribution": {
+    "toxic": 1567,
+    "safe": 483
+  },
+  "confusion_matrix": [
+    [
+      2,
+      71
+    ],
+    [
+      8,
+      227
+    ]
+  ],
+  "features_description": "Character frequency features from SMILES strings"
+}
